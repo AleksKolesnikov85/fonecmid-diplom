@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7d9e5a0-5e95-4b77-ad85-a25dfd38a728">
+  <producedTypes>
+    <objectType typeId="0763958d-481e-490d-bd77-ef8b81742f4a" valueTypeId="f59e358f-14f7-49d2-a4e6-8f2d683296b5"/>
+    <refType typeId="56646b03-bbec-4976-9e08-141964d6b4af" valueTypeId="9cd185b1-3c11-4971-95ef-1d83250507c9"/>
+    <selectionType typeId="bb1fab78-0abe-4974-9767-750a272f29da" valueTypeId="ae4d1c54-8ece-42dd-95cc-f2aeb2909863"/>
+    <listType typeId="d9a59a20-db13-4489-a5de-1e42da0e55dc" valueTypeId="ea5ba7d2-51f1-4a70-b961-603ffb05c6d5"/>
+    <managerType typeId="32e2c926-9a23-4cdc-b64a-c3327c0f722f" valueTypeId="399e91d9-bbda-4867-b442-b4282a5af948"/>
+  </producedTypes>
+  <name>ВКМ_Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Подразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f3869aa2-a495-420b-9bce-17696ccfa017">
+      <name>Специалист</name>
+      <description>Специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6358bc1a-a369-4ee7-865f-c740ea85cb4b">
+      <name>АдминистративныйПерсонал</name>
+      <description>Административный персонал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

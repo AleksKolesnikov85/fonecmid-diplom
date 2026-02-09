@@ -6,6 +6,7 @@
     <value>Отправка уведомлений в телеграм</value>
   </synonym>
   <methodName>CommonModule.ВКМ_Телеграм.ОтправкаСообщенийВТелеграм</methodName>
+  <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

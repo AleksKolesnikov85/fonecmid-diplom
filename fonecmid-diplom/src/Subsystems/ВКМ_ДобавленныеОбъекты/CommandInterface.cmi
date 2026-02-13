@@ -25,6 +25,10 @@
       <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ВКМ_Сотрудники.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <subsystemsOrder>
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.Документы</subsystems>

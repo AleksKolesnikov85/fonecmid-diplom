@@ -75,7 +75,21 @@
         <value>Сотрудник</value>
       </synonym>
       <type>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf6a996d-de22-4439-9e9b-af550e15337e">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Подразделения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -83,10 +97,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="c97d5dac-63cd-4c47-9648-01a40ada931d">
-      <name>СумаПремии</name>
+      <name>СуммаПремии</name>
       <synonym>
         <key>ru</key>
-        <value>Сума премии</value>
+        <value>Сумма премии</value>
       </synonym>
       <type>
         <types>Number</types>

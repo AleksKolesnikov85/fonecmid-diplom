@@ -446,6 +446,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnChange</event>
+      <name>ОсновныеНачисленияПриИзменении</name>
+    </handlers>
     <searchStringAddition>
       <name>ОсновныеНачисленияСтрокаПоиска</name>
       <id>14</id>

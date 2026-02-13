@@ -295,7 +295,7 @@
       </title>
       <id>5</id>
       <valueType>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
       </valueType>
       <view>
         <common>true</common>

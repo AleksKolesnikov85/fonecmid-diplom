@@ -3,7 +3,7 @@
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиентов</value>
+    <value>Обслуживание клиентов (ВКМ)</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -12,4 +12,7 @@
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Report.ВКМ_ВыработкаСотрудников</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>

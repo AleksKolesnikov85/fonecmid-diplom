@@ -69,6 +69,7 @@
       <key>ru</key>
       <value>Основные начисления</value>
     </synonym>
+    <fillChecking>ShowError</fillChecking>
     <attributes uuid="be4035ec-5c48-483e-8569-73f568823fc2">
       <name>Сотрудник</name>
       <synonym>
@@ -76,7 +77,7 @@
         <value>Сотрудник</value>
       </synonym>
       <type>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

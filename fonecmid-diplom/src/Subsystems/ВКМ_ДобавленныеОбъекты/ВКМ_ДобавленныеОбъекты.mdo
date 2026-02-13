@@ -29,6 +29,7 @@
   <content>Report.ВКМ_ВыработкаСотрудников</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Регистры</subsystems>

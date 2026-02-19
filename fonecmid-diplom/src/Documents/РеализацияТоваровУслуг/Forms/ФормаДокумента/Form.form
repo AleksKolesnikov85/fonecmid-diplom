@@ -1481,7 +1481,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Заполнить</name>
+        <name>ВКМ_Заполнить</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

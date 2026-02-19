@@ -1373,6 +1373,41 @@
 						<dcsset:field>ОстатокКВыплате</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:selection>
+							<dcsset:item>
+								<dcsset:field>Выплачено</dcsset:field>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:field>НачальноеСальдо</dcsset:field>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:field>Начислено</dcsset:field>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:field>ОстатокКВыплате</dcsset:field>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:field>Подразделение</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>Шрифт</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" kind="WindowsFont"/>
+							</dcscor:item>
+						</dcsset:appearance>
+						<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+						<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+						<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+						<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+						<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+						<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+						<dcsset:useInOverallHeader>DontUse</dcsset:useInOverallHeader>
+					</dcsset:item>
+				</dcsset:conditionalAppearance>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
@@ -1410,6 +1445,41 @@
 							<dcsset:field>ОстатокКВыплате</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Выплачено</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>НачальноеСальдо</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>Начислено</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ОстатокКВыплате</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>Сотрудник</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="9" bold="true" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+							<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+							<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+							<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+							<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+							<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+							<dcsset:useInOverallHeader>DontUse</dcsset:useInOverallHeader>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
 					<dcsset:outputParameters>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:use>false</dcscor:use>

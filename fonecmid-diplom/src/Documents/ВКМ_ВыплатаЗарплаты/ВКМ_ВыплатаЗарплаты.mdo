@@ -110,24 +110,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8422582d-2d69-4b0a-88fe-e74bdb1bb3f5">
-      <name>СуммаНачисления</name>
-      <synonym>
-        <key>ru</key>
-        <value>Сумма начисления</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="095b4a1d-d427-4925-bbf4-848076c8a145">
       <name>СуммаВыплаты</name>
       <synonym>

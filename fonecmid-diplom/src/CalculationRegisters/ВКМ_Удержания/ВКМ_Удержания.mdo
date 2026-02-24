@@ -53,6 +53,19 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="b0390be8-783d-4450-8742-257e1f01c9d7">
+    <name>БазовыйВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый вид расчета</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="910c5e54-9c41-4f20-92ba-e7e89fbfc8d2">
     <name>Подразделение</name>
     <synonym>

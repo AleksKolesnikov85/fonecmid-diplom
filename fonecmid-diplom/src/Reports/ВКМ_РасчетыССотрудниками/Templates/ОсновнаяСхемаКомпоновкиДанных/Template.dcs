@@ -1490,6 +1490,10 @@
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:order>
 							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ВидРасчета</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
 						</dcsset:order>
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto">
@@ -1505,6 +1509,8 @@
 								<dcsset:field>Выплачено</dcsset:field>
 							</dcsset:item>
 						</dcsset:selection>
+						<dcsset:conditionalAppearance>
+						</dcsset:conditionalAppearance>
 					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
